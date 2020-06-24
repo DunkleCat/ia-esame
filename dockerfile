@@ -7,6 +7,6 @@ COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY ./preparation.ipynb .
-COPY ./train.ipynb .
+COPY ./training.ipynb .
 
 EXPOSE 8888
