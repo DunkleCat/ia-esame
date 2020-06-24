@@ -1,4 +1,4 @@
-jupyter/minimal-notebook
+FROM jupyter/minimal-notebook
 
 RUN apt update
 RUN apt upgrade -y
